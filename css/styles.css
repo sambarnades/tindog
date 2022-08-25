@@ -1,3 +1,5 @@
+/* General */
+
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -8,13 +10,16 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 900;
 }
 
-.big-heading{
-  font-size: 3.5rem;
-  line-height: 1.5;
-  color: #fff;
+.container-fluid {
+  padding: 7% 15%;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /* Navigation Bar */
+
 .navbar {
   padding-bottom: 4.5rem;
 }
@@ -23,11 +28,6 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
-}
-
-.section-heading{
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 .nav-item {
@@ -39,16 +39,30 @@ h1, h2, h3, h4, h5, h6{
   font-size: 1.2rem;
 }
 
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title section */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
 .fa-apple {
   margin: auto 10px 5px auto;
 }
 
 .fa-google-play {
   margin: auto 5px 5px auto;
-}
-
-.container-fluid {
-  padding: 7% 15%;
 }
 
 .download-button {
@@ -61,8 +75,6 @@ h1, h2, h3, h4, h5, h6{
   padding-top: 5%;
 }
 
-/* Title Section */
-
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
@@ -73,19 +85,9 @@ h1, h2, h3, h4, h5, h6{
   right: 20%;
 }
 
-#title {
-  background-color: #ff4c68;
-  text-align: left;
-}
-
 /* Features section */
-p {
-  color: #8f8f8f;
-}
 
 #features {
-
-  background-color: #fff;
   position: relative;
 }
 
@@ -106,9 +108,9 @@ p {
   color: #ff4c68;
 }
 
-/* Testimonials */
-#testimonials {
+/* Testimonial section */
 
+#testimonials {
   background-color: #ef8172;
 }
 
@@ -123,6 +125,8 @@ p {
   color: #fff;
 }
 
+/* Press section */
+
 #press {
   background-color: #ef8172;
 
@@ -133,7 +137,7 @@ p {
   margin: 20px 20px 50px;
 }
 
-/* Pricing */
+/* Pricing section */
 
 #pricing {
 
@@ -149,11 +153,7 @@ p {
   margin: 3% 5% 3% 0;
 }
 
-/* cta */
-#cta {
-
-  background-color: #ff4c68;
-}
+/* CTA section */
 
 .cta-sentence {
   font-weight: 900;
@@ -162,14 +162,11 @@ p {
   color: #fff;
 }
 
-footer {
-
-  background-color: #fff;
-}
-
 .social-icon {
   margin: 20px 15px;
 }
+
+/* Media Queries */
 
 @media (max-width:1024px) {
   #title {
